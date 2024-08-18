@@ -1,0 +1,88 @@
+.admin-settings {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .settings-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .user-management, .salary-settings {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff2b2b;
+  }
+  
+  .salary-label {
+    display: block;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .salary-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .update-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .update-button:hover {
+    background-color: #45a049;
+  }
+  

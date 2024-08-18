@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import ShiftInput from './components/ShiftInput';
+import ShiftResult from './components/ShiftResult';
+import Login from './components/Login';
+import Register from './components/Register';
+import AdminLogin from './components/AdminLogin'; 
+import AdminHome from './components/AdminHome';
+import AdminShiftResult from './components/AdminShiftResult';
+import AdminSettings from './components/AdminSettings';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shift-input" element={<ShiftInput />} />
+        <Route path="/shift-result" element={<ShiftResult />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/admin-login" element={<AdminLogin />} /> 
+        <Route path="/admin-home" element={<AdminHome />} />
+        <Route path="/admin-shift-result" element={<AdminShiftResult />} />
+        <Route path="/admin-settings" element={<AdminSettings />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

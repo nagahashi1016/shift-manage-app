@@ -1,0 +1,53 @@
+.admin-home {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admin-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-home-logout {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admin-home-logout:hover {
+  background-color: #d32f2f;
+}
+
+.admin-home-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.admin-home-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.admin-home-link {
+  background-color: #2196f3;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 10px; 
+}
+
+.admin-home-link:hover {
+  background-color: #1976d2;
+}

@@ -1,0 +1,55 @@
+.user-shift-result {
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto; 
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header span {
+    font-size: 16px;
+  }
+  
+  .header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .shift-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .shift-table th, .shift-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .shift-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .shift-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .shift-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .shift-table td {
+    min-width: 100px; 
+  }
+  
+  .shift-table th, .shift-table td {
+    font-size: 14px;
+  }
+  
